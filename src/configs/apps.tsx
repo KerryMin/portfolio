@@ -1,4 +1,3 @@
-import FaceTime from "~/components/apps/FaceTime";
 import Terminal from "~/components/apps/Terminal";
 import Safari from "~/components/apps/Safari";
 import Bear from "~/components/apps/Bear";
@@ -7,12 +6,6 @@ import VSCode from "~/components/apps/VSCode";
 import type { AppsData } from "~/types";
 
 const apps: AppsData[] = [
-  {
-    id: "launchpad",
-    title: "Launchpad",
-    desktop: false,
-    img: "img/icons/launchpad.png"
-  },
   {
     id: "bear",
     title: "Bear",
@@ -43,15 +36,6 @@ const apps: AppsData[] = [
     content: <VSCode />
   },
   {
-    id: "facetime",
-    title: "FaceTime",
-    desktop: true,
-    show: false,
-    img: "img/icons/facetime.png",
-    height: 530,
-    content: <FaceTime />
-  },
-  {
     id: "terminal",
     title: "Terminal",
     desktop: true,
@@ -64,14 +48,14 @@ const apps: AppsData[] = [
     title: "Mail",
     desktop: false,
     img: "img/icons/mail.png",
-    link: "mailto:renovamenzxh@gmail.com"
+    link: "mailto:kerrym175@gmail.com"
   },
   {
     id: "github",
     title: "Github",
     desktop: false,
     img: "img/icons/github.png",
-    link: "https://github.com/Renovamen/playground-macos"
+    link: "https://github.com/KerryMin?tab=projects"
   }
 ];
 

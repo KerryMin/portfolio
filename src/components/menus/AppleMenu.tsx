@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import type { RefObject } from "react";
 import { useClickOutside } from "~/hooks";
 import { MenuItem, MenuItemGroup } from "./base";
+import constants from "~/configs/Constants";
 
 interface AppleMenuProps {
   logout: () => void;
@@ -46,7 +47,7 @@ export default function AppleMenu({
       </MenuItemGroup>
       <MenuItemGroup border={false}>
         <MenuItem onClick={logout}>Lock Screen</MenuItem>
-        <MenuItem onClick={logout}>Log Out Xiaohan Zou...</MenuItem>
+        <MenuItem onClick={logout}>Log Out {constants.name}..</MenuItem>
       </MenuItemGroup>
     </div>
   );
