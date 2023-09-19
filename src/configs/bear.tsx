@@ -4,7 +4,7 @@ const bear: BearData[] = [
   {
     id: "profile",
     title: "Profile",
-    icon: "i-fa-solid:paw",
+    icon: "i-fa-solid:user",
     md: [
       {
         id: "about-me",
@@ -32,38 +32,30 @@ const bear: BearData[] = [
   {
     id: "project",
     title: "Projects",
-    icon: "i-octicon:repo",
+    icon: "i-fa-solid:file",
     md: [
       {
-        id: "flint",
-        title: "Flint",
-        file: "https://raw.githubusercontent.com/Renovamen/flint/main/README.md",
-        icon: "i-heroicons-solid:fire",
-        excerpt: "A deep learning framework implemented in Numpy...",
-        link: "https://github.com/Renovamen/flint"
+        id: "wat2watch",
+        title: "What 2 Watch",
+        file: "https://raw.githubusercontent.com/KerryMin/what2watch/main/README.md",
+        icon: "i-fa-solid:film",
+        excerpt: "A movie recommendation system based on your taste...",
+        link: "https://github.com/KerryMin/what2watch"
       },
       {
-        id: "portfolio-macos",
-        title: "Portfolio macOS",
-        file: "https://raw.githubusercontent.com/Renovamen/playground-macos/main/README.md",
+        id: "portfolio",
+        title: "Personal Portfolio",
+        file: "https://raw.githubusercontent.com/KerryMin/portfolio/main/README.md",
         icon: "i-ri:gamepad-line",
-        excerpt: "My portfolio website simulating macOS's GUI...",
-        link: "https://github.com/Renovamen/playground-macos"
-      },
-      {
-        id: "oh-my-cv",
-        title: "Oh, My CV!",
-        file: "https://raw.githubusercontent.com/Renovamen/oh-my-cv/main/README.md",
-        icon: "i-ri:newspaper-fill",
-        excerpt: "Write your curriculum vitae / resume in Markdown online...",
-        link: "https://ohmycv.app"
+        excerpt: "A personal portfolio website to showcase my projects...",
+        link: "https://github.com/KerryMin/portfolio"
       }
     ]
   },
   {
     id: "Contact",
     title: "Contact",
-    icon: "i-octicon:repo",
+    icon: "i-fa-solid:address-book",
     md: [
       {
         id: "contact",
@@ -77,7 +69,7 @@ const bear: BearData[] = [
   {
     id: "Resume",
     title: "Resume",
-    icon: "i-octicon:repo",
+    icon: "i-fa-solid:file",
     md: [
       {
         id: "resume",

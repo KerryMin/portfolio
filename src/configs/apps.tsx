@@ -1,4 +1,4 @@
-import Terminal from "~/components/apps/Terminal";
+// import Terminal from "~/components/apps/Terminal";
 import Safari from "~/components/apps/Safari";
 import Bear from "~/components/apps/Bear";
 import VSCode from "~/components/apps/VSCode";
@@ -8,12 +8,12 @@ import type { AppsData } from "~/types";
 const apps: AppsData[] = [
   {
     id: "bear",
-    title: "Bear",
+    title: "About Me",
     desktop: true,
     show: true,
-    width: 860,
-    height: 500,
-    img: "img/icons/bear.png",
+    width: 1024,
+    height: 600,
+    img: "img/icons/finder.png",
     content: <Bear />
   },
   {
@@ -35,14 +35,15 @@ const apps: AppsData[] = [
     img: "img/icons/vscode.png",
     content: <VSCode />
   },
-  {
-    id: "terminal",
-    title: "Terminal",
-    desktop: true,
-    show: false,
-    img: "img/icons/terminal.png",
-    content: <Terminal />
-  },
+  // TODO: Add terminal
+  // {
+  //   id: "terminal",
+  //   title: "Terminal",
+  //   desktop: true,
+  //   show: false,
+  //   img: "img/icons/terminal.png",
+  //   content: <Terminal />
+  // },
   {
     id: "email",
     title: "Mail",

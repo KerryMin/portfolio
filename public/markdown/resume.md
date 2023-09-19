@@ -1,6 +1,6 @@
 ## Résumé
 
-- [Resume Link](http://localhost:5174/files/Resume.pdf)
+- [Resume Link](http://localhost:5173/files/Resume.pdf)
 
 Kerryann Minott
 Frontend developer, React Js | JavaScript | HTML & CSS

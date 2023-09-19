@@ -3,7 +3,7 @@ import constants from "./Constants";
 
 const user: UserData = {
   name: constants.name,
-  avatar: "img/ui/avatar.jpg",
+  avatar: "img/ui/avatar.jpeg",
   password: ""
 };
 

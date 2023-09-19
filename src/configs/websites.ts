@@ -2,7 +2,7 @@ import type { WebsitesData } from "~/types";
 
 const websites: WebsitesData = {
   favorites: {
-    title: "SNS Links",
+    title: "Personal Links",
     sites: [
       {
         id: "my-github",
@@ -15,12 +15,6 @@ const websites: WebsitesData = {
         title: "Linkedin",
         img: "img/sites/linkedin.svg",
         link: "https://www.linkedin.com/in/kerryann-minott-31b715221/"
-      },
-      {
-        id: "my-manhwatop",
-        title: "ManhwaTop",
-        img: "img/sites/manhwatop.jpeg",
-        link: "https://www.manhwatop.com/people/chao-neng-gui-su"
       },
       {
         id: "my-twitter",
@@ -46,12 +40,6 @@ const websites: WebsitesData = {
         link: "https://github.com/"
       },
       {
-        id: "arxiv",
-        title: "arXiv",
-        img: "img/sites/arxiv.png",
-        link: "https://arxiv.org/"
-      },
-      {
         id: "twitter",
         title: "Twitter",
         img: "img/sites/twitter.svg",
@@ -62,54 +50,6 @@ const websites: WebsitesData = {
         title: "LinkedIn",
         img: "img/sites/linkedin.svg",
         link: "https://linkedin.com/"
-      },
-      {
-        id: "pinterest",
-        title: "Pinterest",
-        img: "img/sites/pinterest.svg",
-        link: "https://www.pinterest.com/"
-      },
-      {
-        id: "medium",
-        title: "Medium",
-        img: "img/sites/medium.svg",
-        link: "https://www.medium.com//"
-      },
-      {
-        id: "looper",
-        title: "Looper",
-        img: "img/sites/looper.svg",
-        link: "https://www.looper.com/"
-      },
-      {
-        id: "manhwatop",
-        title: "ManhwaTop",
-        img: "img/sites/manhwatop.jpeg",
-        link: "https://www.manhwatop.com/"
-      },
-      {
-        id: "leetcode",
-        title: "LeetCode",
-        img: "img/sites/leetcode.svg",
-        link: "https://leetcode.com/"
-      },
-      {
-        id: "reddit",
-        title: "Reddit",
-        img: "img/sites/reddit.svg",
-        link: "https://www.reddit.com/"
-      },
-      {
-        id: "hacker-news",
-        title: "Hacker News",
-        img: "img/sites/hacker.svg",
-        link: "https://news.ycombinator.com/"
-      },
-      {
-        id: "steam",
-        title: "Steam",
-        img: "img/sites/steam.svg",
-        link: "https://store.steampowered.com/"
       }
     ]
   }

@@ -1,31 +1,43 @@
 # Technologies
 
+## Languages
+
 ![HTML](../img/logos/html.png) HTML
 
 ![CSS](../img/logos/css.png) CSS
 
 ![JAVASCRIPT](../img/logos/JS.png) JAVASCRIPT
 
-![React](../img/logos/react.png) REACT
-
 ![TYPESCRIPT](../img/logos/typescript.png) TYPESCRIPT
 
-![JSX](../img/logos/jsx.png) JSX
+## Frameworks & Libraries
 
-![ANGULAR](../img/logos/angular.png) ANGULAR
+![React](../img/logos/react.png) REACT
 
-![REDUX](../img/logos/redux.png) REDUX
+![NEXTJS](../img/logos/nextjs.ico) NEXT JS
 
-![VUE](../img/logos/vue.png) VUE
+![React](../img/logos/react.png) REACT NATIVE
+
+![TAILWIND](../img/logos/tailwind.png) TAILWIND CSS
+
+![BOOTSTRAP](../img/logos/bootstrap.png) BOOTSTRAP
 
 ![NODE](../img/logos/node.png) NODE
 
+## Testing
+
+![JEST](../img/logos/jest.ico) JEST
+
+![CYPRESS](../img/logos/cypress.ico) CYPRESS
+
+## ETC
+
+![JSX](../img/logos/jsx.png) JSX
+
+![REDUX](../img/logos/redux.png) REDUX
+
 ![SQL](../img/logos/sql.png) SQL
 
-![MONGODB](../img/logos/mongodb.png) MONGODB
-
 ![GIT](../img/logos/git.png) GIT
-
-![ANDROID](../img/logos/android.png) ANDROID
 
 ![NPM](../img/logos/npm.png) NPM
